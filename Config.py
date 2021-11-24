@@ -2,11 +2,11 @@ import os
 
 class Config(object):
       def __init__(self):
-          self.BotToken     = 'TOKEN'
+          self.BotToken     = '2107581509:AAHDLAgjLTo8SEGnBqlcmhxVA80SOCEl2Qc'
           self.ChunkSize    = 80
           self.ChunkSizeTel = 1000
           self.ChunkFixed   = 150
-          self.FileLimit    = 1024 * 1024 * 500
+          self.FileLimit    = 1024 * 1024 * 400
           self.ExcludeFiles = ['MoodleApp.pyproj','bot.py','Config.py','multiFile.py','MoodleUhoClient.py','S5Crypto.py','S4Crypto.py','nuvidb.txt','requirements.txt','Procfile','__pycache__','.git','.profile.d','.heroku','bot.session','bot.session-journal','output','.cache']
           self.ChunkedFileLimit = 1024 * 1024 * 1024
           self.InProcces = False
